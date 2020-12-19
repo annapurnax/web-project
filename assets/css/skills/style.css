@@ -6,17 +6,18 @@
 }
 .card {
   flex: 0 0 200px;
-  margin: 10px;
-  background-color: #2e2e2e;
-  border: 1px solid black;
-  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  margin: 20px;
+  background-color: 2px solid rgb(247, 223, 234);
+  border: 1px solid rgb(241, 202, 129);
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 20, 0.3);
 }
 .card img {
   max-width: 300px;
   max-height: 300px;
 }
 .card-content {
-  color: white;
+  color: black;
+  font-family: cursive;
   padding: 0 20px 20px;
 }
 
