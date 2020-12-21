@@ -11,6 +11,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
         <link rel="stylesheet" href="assets/css/skills/progressbar.css">
+        <link rel="stylesheet" href="assets/recipe1.html">
+        <link rel="stylesheet" href="assets/recipe2.html">
+        <link rel="stylesheet" href="assets/recipe3.html">
+        <link rel="stylesheet" href="assets/recipe4.html">
         <link rel="stylesheet" href="assets/css/skills/style.css">
         <link rel="stylesheet" href="assets/css/navmenu/styles.css">
         <link rel="stylesheet" href="assets/css/portfolio.jquery.css">
@@ -39,7 +43,7 @@
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
 		<div class='preloader'><div class='loaded'>&nbsp;</div></div>
-        <header id="main_menu" class="header navbar-fixed-top">            
+       <header id="main_menu" class="header navbar-fixed-top">            
             <div class="main_menu_bg">
                 <div class="container">
                     <div class="row">
@@ -72,6 +76,12 @@
                                             <li><a href="#team">Blog</a></li>
                                             <li><a href="#gellary">Gallery</a></li>
                                             <li><a href="#contact">Contact</a></li>
+                                             <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search dishes.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
                                         </ul>
                                     </div>
 
@@ -84,6 +94,106 @@
 
             </div>
         </header> <!--End of header -->
+
+
+
+
+
+ <!--
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {box-sizing: border-box;}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #3cf05a;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #ccc;  
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#contact">Contact</a>
+  <a href="#dishes">Dishes</a>
+  <div class="search-container">
+    <form action="/action_page.php">
+      <input type="text" placeholder="Search dishes.." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </div>
+</div>
+-->
+
 
 
 
@@ -117,14 +227,14 @@
 
                                     </div>
                                 </div>
-                                <div class="single_home_slider">
+                                <!--<div class="single_home_slider">
                                     <div class="main_home wow fadeInUp" data-wow-duration="700ms">
                                         <h1>EASY COOKING</h1>
                                         <p class="subtitle"><h3  style ="text-color:#FDFCFB ">Recipes you can make with what you have on hand!!!</h3></p>
 
                                         <div class="home_btn">
                                             <a href="" class="btn btn-primary">LEARN MORE</a>
-                                        </div>
+                                        </div>  -->
 
                                     </div>
                                 </div>
@@ -459,9 +569,9 @@
 
                         <div class="main_about_content_area">
                             <div class="single_about_left_img">
-                                <img src="assets/images/ab1.jpg" alt="" height="270px" width="300px" />
-                                <img src="assets/images/ab2.jpg" alt="" height="270px" width="300px"/>
-                                <img src="assets/images/ab3.gif" alt="" height="270px" width="300px"/>
+                                <img src="assets/images/ab1.jpg" alt="" height="250px" width="300px" />
+                                <img src="assets/images/ab2.jpg" alt="" height="250px" width="300px"/>
+                                <img src="assets/images/ab3.gif" alt="" height="250px" width="300px"/>
                                 
                             </div> 
 
@@ -476,14 +586,12 @@
                                                     <img src="assets/images/s_ab1.png" alt="" />
                                                 </div>
                                                 <div class="right_about_top_content">
-                                                    <h3>COOKCING BOOK</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur convallis nunc, 
-                                                        at ullamcorper turpis gravida nec. Praesent eu ultrices nunc.</p>
-                                                </div>
+                                                    <h3>Main dishes</h3>
+                                                   </div>
                                             </div>
                                             <div class="right_about_bottom_cotent">
                                                 <!-- bar 1 -->
-                                                <div class="progress-bar4" data-percentage="76%">
+                                               <div class="progress-bar4" data-percentage="76%">
                                                     <h4 class="progress-title-holder">
                                                         <span class="progress-number-wrapper">
                                                             <span class="progress-number-mark">
@@ -506,10 +614,8 @@
                                                     <img src="assets/images/s_ab2.png" alt="" />
                                                 </div>
                                                 <div class="right_about_top_content">
-                                                    <h3>COOKCING BOOK</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur convallis nunc, 
-                                                        at ullamcorper turpis gravida nec. Praesent eu ultrices nunc.</p>
-                                                </div>
+                                                    <h3>Quick and healthy recipes</h3>
+                                                    </div>
                                             </div>
                                             <div class="right_about_bottom_cotent">
                                                 <!-- bar 2 -->
@@ -535,10 +641,8 @@
                                                     <img src="assets/images/s_ab3.png" alt="" />
                                                 </div>
                                                 <div class="right_about_top_content">
-                                                    <h3>COOKCING BOOK</h3>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consectetur convallis nunc, 
-                                                        at ullamcorper turpis gravida nec. Praesent eu ultrices nunc.</p>
-                                                </div>
+                                                    <h3>Desserts</h3>
+                                                   </div>
                                             </div>
                                             <div class="right_about_bottom_cotent">
                                                 <!-- bar 3 -->
@@ -579,22 +683,22 @@
                                 <h3>Quick recipes</h3>
                                 <h5>Extra-Easy Chocolate Truffles</h5>
                                 <p>All you need is cream, chocolate, and butter. Then, you can customize these truffles with add-ons like almonds, coconut flakes, or cocoa powder.</p>
-                                <a href="" class="btn btn-md">View recipe</a>
+                                <a href="assets/recipe1.html">View recipe</a>
                             </div>
                             <div class="single_pepper">
                                 <h5> Banana Ice Cream</h5>
                                 <p>You’ll never tire of this “ice cream” because there are so many different ways to change it up. You can add chocolate chips, fruit, honey, peanut butter, or experiment with different flavor combinations</p>
-                                <a href="" class="btn btn-md">View recipe</a>
+                                <a href="assets/recipe2.html">View recipe</a>
                             </div>
                             <div class="single_pepper">
                                 <h5> Nutella Soufflé</h5>
                                 <p>Whoever said that soufflés were hard to make lied, I promise. This Nutella Soufflé is only 2 ingredients and can be made in under 30 minutes.</p>
-                                <a href="" class="btn btn-md">View recipe</a>
+                                <a href="assets/recipe3.html">View recipe</a>
                             </div>
                             <div class="single_pepper">
                                 <h5> Braided Nutella Bread</h5>
                                 <p>You can easily adapt this recipe to make it more savory by substituting Nutella for pesto or cheese. Either way, it’s a foolproof recipe that will impress everyone</p>
-                                <a href="" class="btn btn-md">View recipe</a>
+                                <a href="assets/recipe4.html">View recipe</a>
                             </div>
 
                         </div>
@@ -927,7 +1031,7 @@
                                     <p></p>
 
 
-                                    <a class="weblink" href="">www.webproject.com</a>
+                                    <a class="weblink" href="https://www.git.edu/">https://git.edu</a>
                                 </div>
                             </div>
                         </div>
