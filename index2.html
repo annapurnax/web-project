@@ -53,7 +53,7 @@
                                 <div class="container-fluid">
                                     <!-- Brand and toggle get grouped for better mobile display -->
                                     <div class="navbar-header">
-                                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
                                             <span class="sr-only">Toggle navigation</span>
                                             <span class="icon-bar"></span>
                                             <span class="icon-bar"></span>
@@ -70,7 +70,7 @@
 
                                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
-                                        <ul class="nav navbar-nav navbar-right">
+                                        <ul class="nav navbar-nav navbar-right">                
                                             <li><a href="#home">Home</a></li>
                                             <li><a href="#service">Recipes</a></li>
                                             <!-- <li><a href="#about"> About us</a></li> -->
@@ -409,17 +409,6 @@
         </section>
 
 
-
-
-
-      <!--
-                           
-
-    -->
-
-
-
-
     
          <section id="about" class="about"> 
             <div class="container">
@@ -431,7 +420,6 @@
                                 <img src="assets/images/ab1.jpg" alt="" height="250px" width="300px" />
                                 <img src="assets/images/ab2.jpg" alt="" height="250px" width="300px"/>
                                 <img src="assets/images/ab3.gif" alt="" height="250px" width="300px"/>
-                                
                             </div> 
 
 
@@ -640,16 +628,23 @@
                                    <!-- <div class="footer_logo">
                                         <img src="assets/images/footerlogo.png" alt="" />
                                     </div>-->
-                                    <h4>Recipes</h4>
-                                    <p>Breakfast</p>
-                                    <p>Lunch</p>
-                                    <p>Dinner</p>
-                                    <p>Easy and quick recipes</p>
-                                    <p>5 ingredients</p>
-                                    <p></p>
+                                    <h4>Feedback</h4>
+                                    <form action="https://mailthis.to/annapurnarevankar29@gmail.com" method="POST">
 
+                                    <p><label for="name">Your Name:</label>
+                                    <input type="text" name="name" id="name"></p>
+                                    
+                                    <p><label for="email">Your Email:</label>
+                                    <input type="email" name="name" id="email"></p>
 
-                                    <a class="weblink" href="https://www.git.edu/">https://git.edu</a>
+                                    <p><label for="msg">Type in your message here </label>
+                                    <textarea name="message" id="msg" cols="30" rows="05">
+                                    </textarea></p>
+
+                                    <input type="submit" value="Send!">
+
+                                    </form>
+                                    
                                 </div>
                             </div>
                         </div>
